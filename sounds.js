@@ -18,12 +18,7 @@ export class Sound {
                 this.sounds[soundName].play()
             }
         }
-        stop(soundName) {
-            if(this.sounds[soundName]){
-                this.sounds[soundName].pause()
-                this.sounds[soundName].currentTime = 0;
-            }
-        }
+       
     }
 
 
